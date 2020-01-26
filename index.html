@@ -11,7 +11,7 @@
             
             <div class="bl-input">
                 <input	type="text" placeholder="Назва товару">
-                <button class="bl-add">Додати</button>                                       
+                <button class="bl-add" data-tooltip="Додати до кошика">Додати</button>                                       
             </div>
 
             <div class="bl-list">
@@ -24,7 +24,7 @@
                         <span class="bl-label">2</span>
                     </div>
                     <div class="bl-buttons">
-                        <button class="bl-buy">Не куплено</button>
+                        <button class="bl-buy" data-tooltip="Нема на складі">Не куплено</button>
                     </div>
                 </div>
                 
@@ -33,13 +33,13 @@
                         Помідори
                     </div>
                     <div class="bl-count">
-                        <button class="bl-minus">-</button>
+                        <button class="bl-minus" data-tooltip="Зменшити на одну одиницю">-</button>
                         <span class="bl-label">3</span>
-                        <button class="bl-plus">+</button>
+                        <button class="bl-plus" data-tooltip="Збільшити на одну одиницю">+</button>
                     </div>
                     <div class="bl-buttons">
-                        <button class="bl-buy">Куплено</button>
-                        <button class="bl-cross">x</button>
+                        <button class="bl-buy" data-tooltip="Купи">Куплено</button>
+                        <button class="bl-cross" data-tooltip="При- брати">x</button>
                     </div>
                 </div>
                 
@@ -48,13 +48,13 @@
                         Огірки
                     </div>
                     <div class="bl-count">
-                        <button class="bl-minus">-</button>
+                        <button class="bl-minus" data-tooltip="Зменшити на одну одиницю">-</button>
                         <span class="bl-label">1</span>
-                        <button class="bl-plus">+</button>
+                        <button class="bl-plus"data-tooltip="Збільшити на одну одиницю">+</button>
                     </div>
                     <div class="bl-buttons">
-                        <button class="bl-buy">Куплено</button>
-                        <button class="bl-cross">x</button>
+                        <button class="bl-buy" data-tooltip="Купи">Куплено</button>
+                        <button class="bl-cross" data-tooltip="При- брати">x</button>
                     </div>
                 </div>
                 
@@ -64,14 +64,14 @@
         <div class="bl-bought">
             <div class="bl-title"><b>Залишилося</b></div>
             <div class="bl-leave">
-                <span class="bl-item">
+                <div class="bl-item">
                     Помідори
                     <span class="bl-amount">3</span>
-                </span>
-                <span class="bl-item">
+                </div>
+                <div class="bl-item">
                     Огірки
                     <span class="bl-amount">1</span>
-                </span>
+                </div>
             </div>                    
             <div class="bl-title"><b>Куплене</b></div>
             <div class="bl-bb">
@@ -85,9 +85,9 @@
     
     
     <div class="bl-badge">
-        <b>Buy List</b>
-        <div class="bl-text">
-            Created by: </br>
+        <div class="bl-txt">Buy List</div>
+        <div class="bl-name">
+            Created by:
             Pylypiva Oleksandra
         </div>
     </div>
